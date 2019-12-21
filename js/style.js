@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".toggle .toggle-button").click(function(){$(".activediv").toggle(".activ-dgn")}),$(".toggle .toggle-button").on("click",function(){$(this).toggleClass("active")}),$("nav ul li").click(function(){$("li").removeClass("active"),$(this).addClass("active")}),$("nav .navbar-toggler").on("click",function(){$(".menu-trigger").toggleClass("active")})});
